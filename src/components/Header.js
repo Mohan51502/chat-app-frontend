@@ -8,7 +8,7 @@ import { useNavigate , NavLink } from "react-router-dom"
 
 const Header = () => {
 
-    const { logindata, setLoginData } = useContext(LoginContext);
+    const { logindata } = useContext(LoginContext);
 
     const history = useNavigate();
 
